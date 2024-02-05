@@ -1,0 +1,100 @@
+.example{
+    width: 300px;
+    height: 200px;
+    border: 25px solid #b2ff8b;
+    padding: 20px;
+    overflow: auto;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(171, 114, 182);
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(141, 61, 114);
+}
+
+.card{
+    max-width: 250px;
+    padding: 15px;
+    border: 1px solid #a758aa;
+    border-radius: 4px;
+    color: #000000;
+    background-color: rgb(153, 64, 146);
+    font-size: 16px;
+}
+
+.wrap{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.new{
+    background-color: rgb(0, 0, 0);
+}
+
+
+.field {
+    position: relative;
+    background-color: #75b456;
+    border: 10px solid black;
+    width: 1700px;
+    height: 825px;
+    background: url('/top-view-of-the-empty-football-field-soccer-gates-3d-render_91497-9504.avif') no-repeat center center/ cover;
+}
+
+.ball {
+    position: absolute;
+    background-color: rgb(61, 61, 61);
+    background: url('/png-clipart-football-football.png') no-repeat center center/ cover;
+    top: 375px;
+    left: 825px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.goal-left {
+    position: fixed;
+    left: 0;
+    top: 300px;
+    width: 100px;
+    height: 200px;
+}
+
+.goal-right {
+    position: fixed;
+    right: 0;
+    top: 325px;
+    width: 100px;
+    height: 200px;
+}
+
+.score {
+    position: absolute;
+    top: 10px;
+    left: 45%;
+    color: #fff;
+    font-size: 40px;
+    background-color: rgb(40, 119, 44);
+}
